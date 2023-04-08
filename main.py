@@ -13,4 +13,5 @@ if A2 ==-2:
     print("Beltrano, no ano de -2 você terá -1")
 if A2 ==2023:
     print("Fulano, no ano de 2023 você terá 28")
-print (("{},").format(Nome),("no ano de {}").format(A2),("você terá {} anos".format(A3)))
+else:
+    print (("{},").format(Nome),("no ano de {}").format(A2),("você terá {} anos".format(A3)))
