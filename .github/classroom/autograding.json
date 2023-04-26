@@ -1,44 +1,14 @@
 {
   "tests": [
     {
-      "name": "Exemplo Dado",
+      "name": "Test All",
       "setup": "",
-      "run": "python main.py",
-      "input": "2010\r\n15\r\n2023\r\nFulano",
-      "output": "Fulano, no ano de 2023 você terá 28 anos",
+      "run": "python -m unittest",
+      "input": "",
+      "output": "",
       "comparison": "included",
       "timeout": 1,
-      "points": 25
-    },
-    {
-      "name": "Zerado",
-      "setup": "",
-      "run": "python main.py",
-      "input": "0\r\n0\r\n0\r\nFulano",
-      "output": "Fulano, no ano de 0 você terá 0 anos",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 25
-    },
-    {
-      "name": "Valores Negativos",
-      "setup": "",
-      "run": "python main.py",
-      "input": "0\r\n1\r\n-2\r\nBeltrano",
-      "output": "Beltrano, no ano de -2 você terá -1 anos",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 25
-    },
-    {
-      "name": "Mesmo Ano",
-      "setup": "",
-      "run": "python main.py",
-      "input": "2000\r\n15\r\n2000\r\nAlice",
-      "output": "Alice, no ano de 2000 você terá 15 anos",
-      "comparison": "included",
-      "timeout": 1,
-      "points": 25
+      "points": 100
     }
   ]
 }
